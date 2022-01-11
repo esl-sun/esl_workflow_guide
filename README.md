@@ -20,6 +20,15 @@ Once it is merged, testing is done on the development branch to ensure that the 
 
 The rest of the document describes the steps in detail along with some examples. This document describes the process using the [ESL PX4](https://github.com/esl-sun/PX4) repository as an example. Therefore, when developing with another repository, the commands described below might need to be altered.
 
+## Alternate repo management suggestion
+
+Previously, the esl-sun Github page was used by students who worked on a project together and commited to the same repo. However, we have found that each student's work is quite different and it takes a lot of effort to maintain a repo with multiple authors in this line of work. Therefore, we suggest you rather choose the repo that you want to base your work on (e.g. PX4/PX4-Autopilot release 1.12 or esl-sun/PX4-Autopilot-Murray-Louw, etc), fork the repo to your personal Github account, and then work on it in your personal account only.
+
+When your work is done, import your personal repo into the esl-sun organisation for future reference and use by other ESL students. Do this from within the esl-sun organisation by clicking the plus next to the profile icon, click **Import repositry**, and enter the URL used to clone your personal repo.
+Append your name and surmane to the official repo name for easy reference, e.g. PX4-Autopilot-Murray-Louw.
+
+Work done before 2021 was based on a different methodology where each student worked on the same repo, i.e. esl-sun/PX4, esl-sun/sitl_gazebo, etc. Most of the esl_workflow_guide is based on this method, so please amend it as needed.
+
 ## Forking
 
 1. [Sign up](https://github.com/) to Github.
